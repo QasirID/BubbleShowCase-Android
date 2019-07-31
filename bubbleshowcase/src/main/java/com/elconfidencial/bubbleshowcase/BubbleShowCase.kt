@@ -10,11 +10,11 @@ import android.graphics.RectF
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Handler
-import android.support.v4.content.ContextCompat
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RelativeLayout
+import androidx.core.content.ContextCompat
 import java.lang.ref.WeakReference
 
 
@@ -117,7 +117,10 @@ class BubbleShowCase(builder: BubbleShowCaseBuilder){
         if(isFirstOfSequence){
             //Add the background dim layout above the root view
             val animation = AnimationUtils.getFadeInAnimation(0, DURATION_BACKGROUND_ANIMATION)
-            backgroundDimLayout?.let { rootView.addView(AnimationUtils.setAnimationToView(backgroundDimLayout!!, animation)) }
+            backgroundDimLayout?.let {
+                rootView.removeView(backgroundDimLayout)
+                rootView.addView(AnimationUtils.setAnimationToView(backgroundDimLayout!!, animation))
+            }
         }
     }
 
