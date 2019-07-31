@@ -1,4 +1,4 @@
-package com.elconfidencial.bubbleshowcase
+package com.qasir.bubbleshowcase
 
 import android.content.Context
 import android.graphics.Canvas

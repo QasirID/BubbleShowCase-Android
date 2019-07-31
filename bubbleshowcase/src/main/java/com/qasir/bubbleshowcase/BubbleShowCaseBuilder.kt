@@ -1,4 +1,4 @@
-package com.elconfidencial.bubbleshowcase
+package com.qasir.bubbleshowcase
 
 import android.app.Activity
 import android.graphics.drawable.Drawable

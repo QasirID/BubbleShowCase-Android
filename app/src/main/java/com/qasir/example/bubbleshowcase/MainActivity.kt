@@ -1,10 +1,10 @@
-package com.elconfidencial.example.bubbleshowcase
+package com.qasir.example.bubbleshowcase
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.elconfidencial.bubbleshowcase.*
+import com.qasir.bubbleshowcase.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

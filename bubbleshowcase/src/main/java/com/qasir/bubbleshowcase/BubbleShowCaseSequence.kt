@@ -1,4 +1,4 @@
-package com.elconfidencial.bubbleshowcase
+package com.qasir.bubbleshowcase
 
 /**
  * Created by jcampos on 10/09/2018.

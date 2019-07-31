@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.elconfidencial.bubbleshowcase">
+    package="com.qasir.bubbleshowcase">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.elconfidencial.example.bubbleshowcase.MainActivity">
+            android:name="com.qasir.example.bubbleshowcase.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
