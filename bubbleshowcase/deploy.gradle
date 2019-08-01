@@ -5,28 +5,13 @@ apply from: 'keystore.gradle'
 //This file was created following instructions from: https://notes.devlabs.bg/beginners-guide-for-publishing-a-kotlin-library-to-jcenter-41272bfc214
 
 ext{
-    groupId = 'com.qasir.bubbleshowcase'
-    artifactId = 'bubbleshowcase'
+    groupId = 'com.github.qasirid'
+    artifactId = 'qasir-bubbleshowcase'
     libraryVersion = '1.0.0'
 }
 
 version = libraryVersion
 group = groupId
-
-bintray{
-    user = 'lqman104'
-    key = bintray_api_key //Defined in keystore.gradle file
-    configurations = ['archives']
-    publish = true
-    override = true
-    pkg {
-        repo = "qasir-experimental"
-        name = "BubbleShowCase"
-        version {
-            name = libraryVersion
-        }
-    }
-}
 
 install {
     repositories.mavenInstaller {
