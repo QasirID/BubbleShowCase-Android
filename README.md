@@ -7,11 +7,18 @@ BubbleShowCase is an elegant and simple framework developed in Kotlin (usable al
 <img src="resources/usage_sample.gif" alt="GIF" height="700"/>
 
 ## Getting started
-
-Add the library into your proyect is really easy, you just need to add this line in dependencies block in your app Gradle:
+This is custom bubble show case for Qasir.id
+Add the library into your project is really easy, you just need to add this line in dependencies block in your app Gradle:
+1. For source library
 ```groovy
 implementation 'com.elconfidencial.bubbleshowcase:bubbleshowcase:LATEST_VERSION'
 ```
+
+2. For Qasir library
+```groovy
+implementation 'com.github.QasirID:BubbleShowCase-Android:LATEST_VERSION'
+```
+
 **NOTE:** You can check the LATEST_VERSION in the version badge at the top of this file.
 
 ## Usage
